@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export default function SuccessVisaPerfectBrand() {
   const [mounted, setMounted] = useState(false);
@@ -54,19 +55,19 @@ export default function SuccessVisaPerfectBrand() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3 w-full max-w-lg px-1 sm:px-0">
-          <a
-            href="#services"
+         <Link
+            href="https://www.successvisa.com.au/"
             className="group flex-1 text-center py-3 sm:py-3.5 px-5 sm:px-7 bg-white/70 hover:bg-white border border-slate-200/70 hover:border-orange-200 rounded-xl lg:rounded-2xl text-xs sm:text-sm font-semibold text-slate-800 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-400 backdrop-blur-sm min-h-[44px] flex items-center justify-center"
           >
             <span className="block group-hover:hidden">Our Services</span>
             <span className="hidden group-hover:block">Explore Services</span>
-          </a>
-          <a
-            href="#cta"
+          </Link>
+          <Link
+            href="https://www.successvisa.com.au"
             className="group flex-1 text-center py-3 sm:py-3.5 px-5 sm:px-7 bg-gradient-to-r from-orange-500 via-[#f8a536] to-amber-500 hover:from-orange-600 hover:via-[#f8a536] hover:to-orange-600 text-white font-bold rounded-xl lg:rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-400 min-h-[44px] flex items-center justify-center text-xs sm:text-sm"
           >
             Free Consultation
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -80,7 +81,7 @@ export default function SuccessVisaPerfectBrand() {
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-black bg-gradient-to-r from-slate-900 via-orange-800 to-[#f8a536] bg-clip-text text-transparent mb-3 sm:mb-4 drop-shadow-lg leading-tight tracking-tight">
             Proven Excellence
           </h2>
-          <div className="w-16 sm:w-20 lg:w-20 h-0.5 lg:h-1 mx-auto lg:ml-0 bg-gradient-to-r from-[#f8a536] to-orange-500 rounded-full shadow-md"></div>
+          <div className="w-16 sm:w-20 lg:w-40 h-0.5 lg:h-1 mx-auto lg:ml-0 bg-gradient-to-r from-[#f8a536] to-orange-500 rounded-full shadow-md"></div>
         </div>
 
         {/* Executive KPI Cluster */}
@@ -179,7 +180,7 @@ export default function SuccessVisaPerfectBrand() {
 
         {/* Ultimate Corporate CTA */}
         <div className="pt-4 sm:pt-5 lg:pt-4 border-t-2 lg:border-t-3 border-[#f8a536]/30 flex-shrink-0">
-          <a
+          <Link
             href="https://www.successvisa.com.au/visa-enquiry"
             className="group block w-full bg-gradient-to-r from-slate-900 via-orange-700 to-[#f8a536] hover:from-[#f8a536] hover:via-orange-600 hover:to-slate-900 text-white font-black py-3 sm:py-4 lg:py-3.5 xl:py-4 px-4 sm:px-6 lg:px-6 xl:px-8 rounded-xl lg:rounded-2xl text-sm sm:text-base lg:text-base xl:text-lg shadow-xl hover:shadow-2xl hover:shadow-[#f8a536]/40 hover:-translate-y-1 sm:hover:-translate-y-2 transition-all duration-500 uppercase tracking-wider text-center relative overflow-hidden"
           >
@@ -196,7 +197,7 @@ export default function SuccessVisaPerfectBrand() {
               </svg>
             </span>
             <div className="absolute inset-0 bg-white/50 blur opacity-0 group-hover:opacity-100 transition-all duration-1000 -skew-x-12 animate-shimmer-delayed"></div>
-          </a>
+          </Link>
 
           <div className="text-center mt-4 sm:mt-5 lg:mt-4 pt-4 sm:pt-5 lg:pt-4 border-t border-slate-200/50 text-[10px] sm:text-xs text-slate-600 space-y-1">
             <div className="font-semibold text-slate-800">📍 Sydney • Melbourne • Registered Migration Agent</div>
